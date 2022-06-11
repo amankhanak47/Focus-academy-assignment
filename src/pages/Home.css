@@ -1,0 +1,158 @@
+.home {
+  width: 100vw;
+  height: 100vh;
+}
+.student-data-header {
+  height: 80vh;
+}
+.left-home {
+  position: absolute;
+  float: left;
+  max-width: 40vw;
+  margin-top: 40px;
+  margin-left: 50px;
+}
+.left-home p {
+  color: #f05136;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 4rem;
+  margin-top: 10%;
+}
+.left-home p span {
+  color: #638eea;
+  cursor: pointer;
+}
+.left-home p span:hover {
+  color: rgb(108, 7, 7);
+}
+.btns {
+  display: flex;
+  width: fit-content;
+  margin-top: 30px;
+}
+.btns button {
+  background-color: #ea7763;
+  border: none;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  min-width: 150px;
+  cursor: pointer;
+  font-family: system-ui;
+  font-weight: 500;
+  font-size: x-large;
+  text-transform: capitalize;
+}
+.right {
+  position: relative;
+  float: right;
+  max-width: 55vw;
+  margin-top: 50px;
+}
+.right img {
+  width: 100%;
+}
+.home-data-block {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loading-component {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+.loading-component img {
+  width: 3rem;
+}
+.info {
+  display: flex;
+}
+.info p {
+  font-weight: 400;
+  margin-left: 5px;
+}
+.student-data-blocks {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.student-data-blocks h1 {
+  text-transform: capitalize;
+  margin: 20px 0px;
+}
+
+.student-all-blocks {
+  width: 98vw;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 600px) {
+  .home {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .student-data-header {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left-home {
+    max-width: 90vw;
+    margin: 0;
+  }
+
+  .left-home p {
+    color: #f05136;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 3rem;
+    margin-top: 10%;
+  }
+
+  .left-home p span {
+    color: #638eea;
+    cursor: pointer;
+  }
+
+  .left-home p span:hover {
+    color: rgb(108, 7, 7);
+  }
+
+  .btns {
+    display: flex;
+    width: fit-content;
+    margin-top: 30px;
+  }
+
+  .btns button {
+    background-color: #ea7763;
+    border: none;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    min-width: 100px;
+    cursor: pointer;
+    font-family: system-ui;
+    font-weight: 500;
+    font-size: large;
+    text-transform: capitalize;
+  }
+
+  .right {
+    display: none;
+  }
+  .student-data-blocks h1 {
+    text-transform: capitalize;
+    margin: 0px 0px 10px 0px;
+  }
+}

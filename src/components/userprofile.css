@@ -1,0 +1,37 @@
+.userprofile{
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 200px;
+    width: fit-content;
+    height: 400px;
+    border: 1px solid black;
+    margin: 5px;
+    border-radius: 20px;
+    padding: 20px;
+
+
+}
+.userprofile h1{
+    font-size: xx-large;
+    font-family: system-ui;
+
+}
+.userimage img{
+    width: 150px;
+    height: 150px;
+    border-radius: 1000px;
+}
+.userinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.userinfo p{
+    font-size: large;
+    font-weight: 600;
+}
